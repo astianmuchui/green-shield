@@ -1,4 +1,6 @@
 from tkinter import *
+from core import Connect
+from logger import Log
 
 from tkinter import font
 class App:
@@ -21,6 +23,9 @@ class App:
 		}
 
 		self.create_widgets()
+		self.create_connection()
+
+		Log("log.txt", "test point 1")
 
 	def create_widgets(self):
 		"""Create GUI widgets"""
@@ -47,14 +52,14 @@ class App:
 		self.cmd_res_entr = Entry(self.parent)
 		self.cmd_res_entr.place(x=150,y=100,height=35,width=180)
 
-
 		# make it not resizable
 
-	def widget_pack(self):
-		"""Pack widgets"""
+	def create_connection(self):
+		"""Establish connection with the hardware"""
+		# Connect.init_connection() # todo: provide user with a way to select the port, board and baud rate
 		pass
-		
 
+		
 if __name__ == '__main__':
 	root = Tk()
 	#Dimensions
