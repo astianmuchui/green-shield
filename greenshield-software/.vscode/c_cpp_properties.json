@@ -1,0 +1,58 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/eduh/Desktop/Folders/projects/green-shield/greenshield-software/include",
+                "/home/eduh/Desktop/Folders/projects/green-shield/greenshield-software/src",
+                "/home/eduh/.platformio/packages/framework-arduino-avr/cores/arduino",
+                "/home/eduh/.platformio/packages/framework-arduino-avr/variants/standard",
+                "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                "/home/eduh/.platformio/packages/tool-unity",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/eduh/Desktop/Folders/projects/green-shield/greenshield-software/include",
+                    "/home/eduh/Desktop/Folders/projects/green-shield/greenshield-software/src",
+                    "/home/eduh/.platformio/packages/framework-arduino-avr/cores/arduino",
+                    "/home/eduh/.platformio/packages/framework-arduino-avr/variants/standard",
+                    "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/EEPROM/src",
+                    "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/HID/src",
+                    "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/SPI/src",
+                    "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/SoftwareSerial/src",
+                    "/home/eduh/.platformio/packages/framework-arduino-avr/libraries/Wire/src",
+                    "/home/eduh/.platformio/packages/tool-unity",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=50203",
+                "ARDUINO_AVR_UNO",
+                "F_CPU=16000000L",
+                "ARDUINO_ARCH_AVR",
+                "ARDUINO=10808",
+                "__AVR_ATmega328P__",
+                ""
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "compilerPath": "/home/eduh/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=atmega328p",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
